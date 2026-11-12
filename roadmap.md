@@ -46,3 +46,4 @@
 - [x] GGS Feed slide 34: merge the photo into the background — full-bleed with a cream top fade, no framed block or divider line; PNG download re-captured and verified (2880×3840)
 - [x] GGS Feed slide 38: "Dibalik Rambut Berkilau" with the owner's hair photo, keep its original marble background, PNG download
 - [x] GGS Feed slide 39: 'Kuku Bagus Menawan dengan Nail Art', photo IMG_3197 with whitened fingers, PNG download
+- [ ] GGS Feed slide 40: 'Kuku menarik' with the same photo IMG_3197 (original, only cleaned), PNG download
