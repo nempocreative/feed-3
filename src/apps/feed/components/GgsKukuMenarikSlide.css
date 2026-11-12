@@ -1,0 +1,10 @@
+.ggkm-root{position:relative;isolation:isolate;width:100%;aspect-ratio:3/4;overflow:hidden;container-type:inline-size;background:var(--ggkm-plum);font-family:'DM Sans',sans-serif;color:var(--ggkm-cream)}
+.ggkm-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+/* Soft plum glow only over the pink sequin corner, so the headline reads without touching the nails. */
+.ggkm-shade{position:absolute;inset:0;z-index:1;pointer-events:none;background:var(--ggkm-shade)}
+
+.ggkm-head{position:absolute;z-index:2;left:5cqw;bottom:16cqw;margin:0;display:flex;flex-direction:column;align-items:flex-start;font-family:'Playfair Display',Georgia,serif;font-weight:700;font-style:italic;line-height:.92}
+.ggkm-line1{font-size:15cqw;letter-spacing:-.03em;color:var(--ggkm-cream);text-shadow:var(--ggkm-glow)}
+.ggkm-line2{margin-top:.6cqw;font-size:9.6cqw;font-weight:600;letter-spacing:-.01em;color:var(--ggkm-blush);text-shadow:var(--ggkm-glow)}
+
+.ggkm-watermark{position:absolute;inset:0;z-index:3;width:100%;height:100%;object-fit:contain;pointer-events:none}

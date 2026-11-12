@@ -180,6 +180,14 @@
   --ggpov-glow: 0 .3cqw 1.2cqw rgba(16, 6, 6, .6), 0 0 3cqw rgba(16, 6, 6, .4);
 }
 /* GGS Feed slide 39 (3:4): "Kuku bagus menawan dengan Nail Art" over the owner's pink-nails photo. */
+.ggkm-root {
+  --ggkm-plum: #3d1027;
+  --ggkm-cream: #fff6f1;
+  --ggkm-blush: #ffd3e1;
+  --ggkm-shade: radial-gradient(ellipse 62% 40% at 0% 82%, rgba(61, 16, 39, .72) 0%, rgba(61, 16, 39, .38) 55%, transparent 100%);
+  --ggkm-glow: 0 .35cqw 1.6cqw rgba(61, 16, 39, .7), 0 0 3.4cqw rgba(61, 16, 39, .45);
+}
+
 .ggnw-root {
   --ggnw-paper: #fbeef0;
   --ggnw-plum: #4a1730;
