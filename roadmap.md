@@ -44,4 +44,4 @@
 - [x] GGS Cowok slide 6: download video flickered ahead of the preview — re-recorded with every frame checked against the preview timing
 - [x] GGS Feed slide 34: tidy headline/price alignment, show both hands and nails without footer overlap, regenerate and verify PNG
 - [x] GGS Feed slide 34: merge the photo into the background — full-bleed with a cream top fade, no framed block or divider line; PNG download re-captured and verified (2880×3840)
-- [ ] GGS Feed slide 38: "Dibalik Rambut Berkilau" with the owner's hair photo, keep its original marble background, PNG download
+- [x] GGS Feed slide 38: "Dibalik Rambut Berkilau" with the owner's hair photo, keep its original marble background, PNG download
