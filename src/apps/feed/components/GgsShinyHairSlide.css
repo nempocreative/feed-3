@@ -1,0 +1,9 @@
+.ggsh-root{position:relative;isolation:isolate;width:100%;aspect-ratio:3/4;overflow:hidden;container-type:inline-size;background:var(--ggsh-paper);font-family:'DM Sans',sans-serif;color:var(--ggsh-ink)}
+.ggsh-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.ggsh-shade{position:absolute;inset:0;z-index:1;pointer-events:none;background:var(--ggsh-shade)}
+
+.ggsh-head{position:absolute;z-index:2;left:4cqw;right:4cqw;top:19.5cqw;margin:0;display:flex;flex-direction:column;align-items:center;text-align:center;font-family:'Playfair Display',Georgia,serif;font-weight:700}
+.ggsh-pre{font-size:6.6cqw;font-style:italic;font-weight:500;line-height:1;letter-spacing:.01em;color:var(--ggsh-gold);text-shadow:var(--ggsh-glow)}
+.ggsh-title{margin-top:.6cqw;font-size:10.2cqw;line-height:1;letter-spacing:-.025em;white-space:nowrap;color:var(--ggsh-ink);text-shadow:var(--ggsh-glow)}
+
+.ggsh-watermark{position:absolute;inset:0;z-index:3;width:100%;height:100%;object-fit:contain;pointer-events:none}

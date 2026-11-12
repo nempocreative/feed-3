@@ -179,6 +179,14 @@
   --ggpov-shade: linear-gradient(180deg, rgba(20, 10, 10, .55) 0%, rgba(20, 10, 10, .52) 18%, rgba(20, 10, 10, .4) 30%, rgba(20, 10, 10, 0) 42%);
   --ggpov-glow: 0 .3cqw 1.2cqw rgba(16, 6, 6, .6), 0 0 3cqw rgba(16, 6, 6, .4);
 }
+/* GGS Feed slide 38 (3:4): "Dibalik Rambut Berkilau" over the owner's marble-wall salon photo. */
+.ggsh-root {
+  --ggsh-paper: #f4efe8;
+  --ggsh-ink: #2a1a10;
+  --ggsh-gold: #9a6a1c;
+  --ggsh-shade: linear-gradient(180deg, rgba(250, 246, 240, .9) 0%, rgba(250, 246, 240, .84) 22%, rgba(250, 246, 240, .62) 33%, rgba(250, 246, 240, 0) 44%);
+  --ggsh-glow: 0 0 1.4cqw rgba(252, 249, 244, .9), 0 0 3.2cqw rgba(252, 249, 244, .7);
+}
 /* GGS Feed slide 37 (3:4): Ratus price promo over the owner's smoking-burner photo. */
 .ggrt-root {
   --ggrt-ink: #21170f;
