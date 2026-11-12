@@ -1,10 +1,10 @@
-.ggna-root{position:relative;isolation:isolate;width:100%;aspect-ratio:3/4;overflow:hidden;container-type:inline-size;background:var(--ggna-ink);font-family:'DM Sans',sans-serif;color:var(--ggna-plum)}
-.ggna-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
-.ggna-shade{position:absolute;inset:0;z-index:1;pointer-events:none;background:var(--ggna-shade)}
+.ggnw-root{position:relative;isolation:isolate;width:100%;aspect-ratio:3/4;overflow:hidden;container-type:inline-size;background:var(--ggnw-paper);font-family:'DM Sans',sans-serif;color:var(--ggnw-plum)}
+/* Photo sits lower so the headline gets its own blush band; its top dissolves into the paper (no hard edge). */
+.ggnw-photo{position:absolute;left:0;top:13%;width:100%;height:100%;object-fit:cover;object-position:50% 50%;-webkit-mask-image:var(--ggnw-fade);mask-image:var(--ggnw-fade)}
 
-.ggna-head{position:absolute;z-index:2;left:5cqw;right:5cqw;top:19.5cqw;display:flex;flex-direction:column;align-items:center;text-align:center}
-.ggna-kicker{margin:0;font-size:3.6cqw;font-weight:800;line-height:1;text-transform:uppercase;letter-spacing:.52em;padding-left:.52em;color:var(--ggna-gold);text-shadow:var(--ggna-glow)}
-.ggna-title{margin:1.8cqw 0 0;font-family:'Playfair Display',Georgia,serif;font-size:11.5cqw;font-weight:700;line-height:1.02;letter-spacing:-.02em;color:var(--ggna-plum);text-shadow:var(--ggna-glow)}
-.ggna-title em{display:block;font-style:italic;font-size:1.32em;letter-spacing:-.035em;color:var(--ggna-rose)}
+.ggnw-head{position:absolute;z-index:2;left:4cqw;right:4cqw;top:19cqw;margin:0;display:flex;flex-direction:column;align-items:center;text-align:center;font-family:'Playfair Display',Georgia,serif;font-weight:700}
+.ggnw-pre{font-size:7cqw;font-style:italic;font-weight:500;line-height:1;letter-spacing:.005em;color:var(--ggnw-plum);text-shadow:var(--ggnw-glow)}
+.ggnw-with{margin-top:1.4cqw;font-family:'DM Sans',sans-serif;font-size:2.9cqw;font-weight:800;line-height:1;text-transform:uppercase;letter-spacing:.5em;padding-left:.5em;color:var(--ggnw-gold);text-shadow:var(--ggnw-glow)}
+.ggnw-title{margin-top:.4cqw;font-size:14cqw;line-height:1;letter-spacing:-.03em;white-space:nowrap;color:var(--ggnw-rose);text-shadow:var(--ggnw-glow)}
 
-.ggna-watermark{position:absolute;inset:0;z-index:3;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.ggnw-watermark{position:absolute;inset:0;z-index:3;width:100%;height:100%;object-fit:contain;pointer-events:none}

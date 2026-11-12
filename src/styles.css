@@ -179,6 +179,15 @@
   --ggpov-shade: linear-gradient(180deg, rgba(20, 10, 10, .55) 0%, rgba(20, 10, 10, .52) 18%, rgba(20, 10, 10, .4) 30%, rgba(20, 10, 10, 0) 42%);
   --ggpov-glow: 0 .3cqw 1.2cqw rgba(16, 6, 6, .6), 0 0 3cqw rgba(16, 6, 6, .4);
 }
+/* GGS Feed slide 39 (3:4): "Kuku bagus menawan dengan Nail Art" over the owner's pink-nails photo. */
+.ggnw-root {
+  --ggnw-paper: #fbeef0;
+  --ggnw-plum: #4a1730;
+  --ggnw-rose: #b8365f;
+  --ggnw-gold: #9a6a1c;
+  --ggnw-fade: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, .12) 5%, rgba(0, 0, 0, .45) 12%, rgba(0, 0, 0, .82) 18%, #000 22%);
+  --ggnw-glow: 0 0 1.4cqw rgba(251, 238, 240, .95), 0 0 3.2cqw rgba(251, 238, 240, .75);
+}
 /* GGS Feed slide 38 (3:4): "Dibalik Rambut Berkilau" over the owner's marble-wall salon photo. */
 .ggsh-root {
   --ggsh-paper: #f4efe8;
