@@ -3574,7 +3574,7 @@ function App() {
               <>
                 <PrebuiltPngDownload
                   src={ggsKukuMenarikPng.url}
-                  fileName="GGS-Feed-40-Kuku-Menarik.png"
+                  fileName="GGS-Feed-40-Cantik-Sampai-Ujung-Jari.png"
                   label="Download PNG · 2×"
                   className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
                 />
