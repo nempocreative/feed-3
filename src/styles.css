@@ -185,7 +185,7 @@
   --ggnw-plum: #4a1730;
   --ggnw-rose: #b8365f;
   --ggnw-gold: #9a6a1c;
-  --ggnw-fade: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, .35) 7%, #000 17%);
+  --ggnw-fade: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, .12) 5%, rgba(0, 0, 0, .45) 12%, rgba(0, 0, 0, .82) 18%, #000 22%);
   --ggnw-glow: 0 0 1.4cqw rgba(251, 238, 240, .95), 0 0 3.2cqw rgba(251, 238, 240, .75);
 }
 /* GGS Feed slide 38 (3:4): "Dibalik Rambut Berkilau" over the owner's marble-wall salon photo. */
