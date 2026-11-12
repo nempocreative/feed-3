@@ -177,6 +177,7 @@ import ggsRatusPricePng from '@/assets/ggs-feed-37-ratus-promo.png.asset.json';
 import { GgsShinyHairSlide } from './components/GgsShinyHairSlide';
 import ggsShinyHairPng from '@/assets/ggs-feed-38-rambut-berkilau.png.asset.json';
 import { GgsNailArtSlide } from './components/GgsNailArtSlide';
+import ggsNailArtPng from '@/assets/ggs-feed-39-nail-art.png.asset.json';
 import { GgsServicesSlide, GGS_SERVICES_SLIDES } from './components/GgsServicesSlide';
 import { GgsRatusPromoSlide } from './components/GgsRatusPromoSlide';
 import { KalaMudaRecruitSlide } from './components/KalaMudaRecruitSlide';
@@ -3545,6 +3546,18 @@ function App() {
                 <PrebuiltPngDownload
                   src={ggsShinyHairPng.url}
                   fileName="GGS-Feed-38-Dibalik-Rambut-Berkilau.png"
+                  label="Download PNG · 2×"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
+                />
+                <p className="max-w-[92vw] text-center text-[10px] font-medium text-slate-600">
+                  PNG 2880×3840. Di iPad/iPhone pilih “Simpan Gambar” atau “Simpan ke File”; jika gambar terbuka, tekan lama lalu Simpan.
+                </p>
+              </>
+            ) : activeFeed === 'client' && activeClientSlide === 39 ? (
+              <>
+                <PrebuiltPngDownload
+                  src={ggsNailArtPng.url}
+                  fileName="GGS-Feed-39-Kuku-Menawan-Nail-Art.png"
                   label="Download PNG · 2×"
                   className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
                 />
