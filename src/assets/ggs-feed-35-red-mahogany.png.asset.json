@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "ef53a634-d3e3-43ca-8f04-eb45504cf484",
-  "project_id": "55ca2619-3fcf-4217-97f7-4bca34651994",
-  "url": "/__l5e/assets-v1/ef53a634-d3e3-43ca-8f04-eb45504cf484/ggs-feed-35-red-mahogany.png",
-  "r2_key": "a/v1/55ca2619-3fcf-4217-97f7-4bca34651994/ef53a634-d3e3-43ca-8f04-eb45504cf484/ggs-feed-35-red-mahogany.png",
-  "original_filename": "ggs-feed-35-red-mahogany.png",
-  "size": 10087813,
   "content_type": "image/png",
-  "created_at": "2026-11-12T14:34:45Z"
+  "created_at": "2026-11-12T14:34:45Z",
+  "original_filename": "ggs-feed-35-red-mahogany.png",
+  "project_id": "5bfecb5c-a803-47a7-97d5-d8b90888790b",
+  "r2_key": "a/v1/5bfecb5c-a803-47a7-97d5-d8b90888790b/ef53a634-d3e3-43ca-8f04-eb45504cf484/ggs-feed-35-red-mahogany.png",
+  "size": 10087813,
+  "url": "/__l5e/assets-v1/ef53a634-d3e3-43ca-8f04-eb45504cf484/ggs-feed-35-red-mahogany.png",
+  "version": 1
 }

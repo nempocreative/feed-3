@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "71f6ff6a-24cd-4b62-b011-d5e8cdf1af1c",
-  "project_id": "55ca2619-3fcf-4217-97f7-4bca34651994",
-  "url": "/__l5e/assets-v1/71f6ff6a-24cd-4b62-b011-d5e8cdf1af1c/ggs-feed-34-nail-lamp.jpg",
-  "r2_key": "a/v1/55ca2619-3fcf-4217-97f7-4bca34651994/71f6ff6a-24cd-4b62-b011-d5e8cdf1af1c/ggs-feed-34-nail-lamp.jpg",
-  "original_filename": "ggs-feed-34-nail-lamp.jpg",
-  "size": 313812,
   "content_type": "image/jpeg",
-  "created_at": "2026-11-12T14:34:38Z"
+  "created_at": "2026-11-12T14:34:38Z",
+  "original_filename": "ggs-feed-34-nail-lamp.jpg",
+  "project_id": "5bfecb5c-a803-47a7-97d5-d8b90888790b",
+  "r2_key": "a/v1/5bfecb5c-a803-47a7-97d5-d8b90888790b/71f6ff6a-24cd-4b62-b011-d5e8cdf1af1c/ggs-feed-34-nail-lamp.jpg",
+  "size": 313812,
+  "url": "/__l5e/assets-v1/71f6ff6a-24cd-4b62-b011-d5e8cdf1af1c/ggs-feed-34-nail-lamp.jpg",
+  "version": 1
 }
