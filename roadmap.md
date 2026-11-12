@@ -1,0 +1,46 @@
+# Roadmap
+
+- [x] Masker (Hair Treatment) jadi 60.000
+- [x] Urutkan: Potong rambut dulu, baru Potong cuci catok
+- [x] Samakan ukuran font semua halaman, rapatkan jarak, naikkan konten
+- [x] Catok rambut sambung jadi 50.000
+- [x] Potong cuci catok jadi 85.000
+- [x] Potong cuci curly jadi 90.000
+- [x] Potong cuci blow jadi 85.000
+- [x] Section Khusus treatment anak jadi halaman sendiri (7 lembar)
+- [x] Perbarui PDF unduhan dengan teks tajam untuk cetak; periksa seluruh halaman dan tombol unduhan (8 halaman, vector text)
+- [x] Pulihkan 72 foto/video yang hilang setelah remix ke penyimpanan proyek ini
+- [x] Add Body Treatment page (waxing, bekam, lulur, masker) and "Body massage + bekam" bundling; regenerate 8-page print PDF
+- [x] Restore Tion Feed slides 1–12 (opens on slide 8) from github.com/nempocreative/organizer
+- [x] GGS Feed slide 23: replace photo with the owner's upload and animate the hands (sharp MP4 download)
+- [x] GGS Feed slide 29: hair treatment "mempercantik diri" with the owner's retouched salon photo + PNG download
+- [x] GGS Feed slide 29 v2: AI-made background behind the original (unchanged-face) people, no frames/shapes, re-capture PNG
+- [x] GGS Feed slide 30: Hari Pahlawan "hari ini" reminder with the owner's team flashlight photo + PNG download
+- [x] GGS Feed slide 30: remove the yellow "Hari Pahlawan" line; label "Berlaku sampai tanggal 10 November"
+- [ ] "Body massage + bekam" duration — waiting on owner
+- [x] GGS Feed slide 31: 11.11 Double Day Sale — diskon 10–30% all treatment, Nail 35.000 / Massage 85.000 / Ratus 45.000, PNG download
+- [x] Tion Feed slide 13: Roti'O "Momen Manis" promo video in slide 12 look, sharp MP4 download, working download button
+- [x] Tion Feed slide 14: Hoka Seru 3 + Beef Teriyaki promo video (Rp44.000 dari Rp56.500, -23%), sharp MP4 download
+- [x] NEMPO Feed slide 44: Hari Pahlawan "hari ini" video slide (Tugu Pahlawan + flag, animated text) with MP4/PNG download
+- [x] NEMPO Feed slide 44: creative but not tacky ("jangan alay") fonts; re-record MP4/PNG
+- [x] NEMPO Feed slide 44: static text (no text animation), replace the lines beside the year, replace the italic serif font; re-record MP4/PNG
+- [x] NEMPO Feed slide 44: more breathing room around the "81" chip; center the Hari Pahlawan title; re-record MP4/PNG
+- [x] NEMPO Feed slide 44: smaller text with even spacing; re-record MP4/PNG
+- [x] NEMPO Feed slide 44: precise, even spacing for the bottom text block; re-record MP4/PNG
+- [x] NEMPO Feed slide 45: NEMPO customer service (layanan pelanggan) design with download
+- [x] NEMPO Feed slide 45: more attractive, no Telegram, emphasize EO / WO / Creative; re-capture PNG
+- [x] GGS Cowok slide 04: video cover "Burst Fade" with the owner's photo + PNG download
+- [x] GGS Cowok slide 04: more elegant cover, sharper photo, more creative lettering
+- [x] GGS Cowok slide 5: real GGS barbershop look — perm client sitting upright in the owner's maroon barber chair (photo built from the owner's chair photo), headline made readable again
+- [x] GGS Cowok slide 5: PNG download button (2880×3840, captured from the preview with the overlay composited at Lanczos 2×)
+- [x] GGS Cowok slide 5: owner dropped the video — photo only, fix the seated pose
+- [x] GGS Feed slide 32: Promo Nail Art 35.000 — hand on the GGS coaster, short natural (not fake) plain nails cycling through every swatch color from the owner's photos, MP4 download
+- [x] GGS Feed slide 33: Promo Nail Art Cat Eye 85.000 (dari 100.000) — same coaster hand as 32, 9 cat-eye colors from the owner's swatch photo with a sweeping magnetic streak, MP4 download
+- [x] GGS Feed slide 33: install the owner's reference-style glitter ombre cat-eye photo, retain color cycling, regenerate and verify the MP4 after remix
+- [x] GGS Feed slide 33: tighten the nail outline so color stays inside each nail, re-record MP4
+- [x] GGS Cowok slide 6: promo Colouring Rp200.000 with barber photo and sharp PNG download
+- [x] GGS Cowok slide 6 v2: one AI photo per hair colour (bright colours incl. maroon, kuning, pink, hijau toska) crossfading, with MP4 download
+- [x] GGS Cowok slide 6 v3: colour menu without any capsule/box, dots shrunk to 1.9cqw with cream+dark rings; MP4 re-recorded (504 frames stepped in ms) and re-uploaded
+- [x] GGS Cowok slide 6: download video flickered ahead of the preview — re-recorded with every frame checked against the preview timing
+- [x] GGS Feed slide 34: tidy headline/price alignment, show both hands and nails without footer overlap, regenerate and verify PNG
+- [x] GGS Feed slide 34: merge the photo into the background — full-bleed with a cream top fade, no framed block or divider line; PNG download re-captured and verified (2880×3840)
