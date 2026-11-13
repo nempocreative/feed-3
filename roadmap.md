@@ -58,3 +58,4 @@
 - [x] GGS Cowok slide 08: "POV: lupa pakai kacamata" with the owner's barber photo sharpened (faces unchanged), PNG download
 - [x] GGS Feed slide 46: Promo Bekam Full Body (Rp140.000 → Rp110.000) on a transparent canvas, four PNG downloads (full-frame + small bottom strip, each promo-only and with GGS kop/kaki) for stacking on a video frame
 - [x] GGS Cowok slide 09: Give Away Day 5 with the owner's staff photo (hand showing five), photo quality improved without changing her face, PNG download
+- [ ] GGS Feed slide 47: kenalan terapis Teh Anggi & Teh Siti (faces unchanged, pink blazers without logo) + promo Massage Rp85.000, PNG download
