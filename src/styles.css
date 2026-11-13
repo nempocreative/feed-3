@@ -206,6 +206,26 @@
   --ggrq-next-bg: rgba(30, 14, 6, .55);
 }
 
+/* GGS Feed slide 47 (3:4): meet therapists Teh Siti & Teh Anggi in pink blazers + massage promo. */
+.ggth-root {
+  --ggth-bg: #f6e4e6;
+  --ggth-ink: #5a1530;
+  --ggth-pop: #d23d74;
+  --ggth-glow: 0 0 2.2cqw rgba(255, 248, 246, .95), 0 .2cqw .8cqw rgba(255, 248, 246, .85);
+  --ggth-photo-filter: brightness(1.04) saturate(1.04);
+  --ggth-shade: radial-gradient(ellipse 60% 17% at 24% 23.5%, rgba(255, 246, 244, .9) 0%, rgba(255, 246, 244, .72) 55%, rgba(255, 246, 244, 0) 100%), linear-gradient(180deg, rgba(60, 14, 32, 0) 62%, rgba(60, 14, 32, .4) 100%);
+  --ggth-tag-bg: rgba(255, 247, 246, .94);
+  --ggth-tag-bg-solid: #fff7f4;
+  --ggth-tag-line: #d23d74;
+  --ggth-tag-ink: #5a1530;
+  --ggth-tag-sub: #b0466e;
+  --ggth-tag-shadow: 0 .6cqw 2cqw rgba(70, 12, 34, .32);
+  --ggth-card: linear-gradient(160deg, #fffaf6 0%, #ffeef0 100%);
+  --ggth-card-line: rgba(210, 61, 116, .55);
+  --ggth-card-ink: #6d1233;
+  --ggth-card-shadow: 0 1.4cqw 3.2cqw rgba(60, 10, 30, .38);
+}
+
 /* GGS Feed slide 46 (3:4): bekam full body promo on a transparent canvas, for dropping onto a video frame. */
 .ggbk-root {
   --ggbk-ink: #4a1220;

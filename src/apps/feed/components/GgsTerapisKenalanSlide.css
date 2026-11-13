@@ -1,0 +1,25 @@
+/* GGS Feed slide 47 (3:4). Colours live in src/styles.css (.ggth-root). */
+.ggth-root{position:relative;isolation:isolate;width:100%;aspect-ratio:3/4;overflow:hidden;container-type:inline-size;background:var(--ggth-bg);font-family:'DM Sans',sans-serif;color:var(--ggth-ink)}
+.ggth-photo{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;filter:var(--ggth-photo-filter)}
+.ggth-shade{position:absolute;inset:0;z-index:1;pointer-events:none;background:var(--ggth-shade)}
+
+.ggth-title{position:absolute;z-index:2;left:6cqw;top:21cqw;margin:0;display:flex;flex-direction:column;align-items:flex-start;line-height:1}
+.ggth-kicker{font-family:'Caveat',cursive;font-weight:700;font-size:8.6cqw;color:var(--ggth-pop);transform:rotate(-4deg);margin:0 0 -.6cqw 1cqw;text-shadow:var(--ggth-glow)}
+.ggth-main{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:600;font-size:9.4cqw;letter-spacing:-.02em;color:var(--ggth-ink);white-space:nowrap;text-shadow:var(--ggth-glow)}
+
+/* Both name tags share one pill, one height; each is centred under its person. */
+.ggth-name{position:absolute;z-index:2;top:80cqw;margin:0;transform:translateX(-50%);display:flex;align-items:center;gap:1.4cqw;padding:1.1cqw 2.8cqw 1.2cqw;border-radius:99cqw;white-space:nowrap;background:var(--ggth-tag-bg);border:.25cqw solid var(--ggth-tag-line);box-shadow:var(--ggth-tag-shadow)}
+.ggth-name b{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:600;font-size:3.7cqw;line-height:1;color:var(--ggth-tag-ink)}
+.ggth-name i{display:block;width:.25cqw;height:2.7cqw;border-radius:1cqw;background:var(--ggth-tag-line)}
+.ggth-name span{font-size:1.6cqw;font-weight:700;letter-spacing:.2em;text-transform:uppercase;line-height:1;color:var(--ggth-tag-sub)}
+.ggth-name--siti{left:29cqw}
+.ggth-name--anggi{left:76cqw}
+
+.ggth-promo{position:absolute;z-index:2;left:10cqw;right:10cqw;top:96cqw;display:flex;align-items:center;justify-content:space-between;gap:3cqw;padding:2.6cqw 4.4cqw;border-radius:4cqw;background:var(--ggth-card);border:.4cqw solid var(--ggth-card-line);box-shadow:var(--ggth-card-shadow)}
+.ggth-promo-copy{margin:0;display:flex;flex-direction:column;align-items:flex-start;line-height:1}
+.ggth-promo-tag{padding:.7cqw 2.4cqw;border-radius:99cqw;background:var(--ggth-pop);color:var(--ggth-tag-bg-solid);font-size:2.2cqw;font-weight:800;letter-spacing:.38cqw;text-transform:uppercase}
+.ggth-promo-name{margin-top:1.2cqw;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:600;font-size:6.6cqw;color:var(--ggth-card-ink)}
+.ggth-promo-price{margin:0;display:flex;align-items:flex-start;gap:.6cqw;font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:10.6cqw;line-height:1;letter-spacing:-.02em;color:var(--ggth-card-ink)}
+.ggth-promo-price small{margin-top:1.4cqw;font-family:'DM Sans',sans-serif;font-size:3.4cqw;font-weight:800;letter-spacing:0}
+
+.ggth-watermark{position:absolute;inset:0;z-index:3;width:100%;height:100%;object-fit:contain;pointer-events:none}
