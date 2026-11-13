@@ -193,6 +193,8 @@ import ggsRatusEdu43Png from '@/assets/ggs-feed-43-ratus-edukasi.png.asset.json'
 import ggsRatusEdu44Png from '@/assets/ggs-feed-44-ratus-edukasi.png.asset.json';
 import ggsBekamPromoPng from '@/assets/ggs/ggs-feed-46-bekam-promo-noframe.png.asset.json';
 import ggsBekamPromoBrandedPng from '@/assets/ggs/ggs-feed-46-bekam-promo.png.asset.json';
+import ggsBekamPromoStripPng from '@/assets/ggs/ggs-feed-46-bekam-promo-strip-noframe.png.asset.json';
+import ggsBekamPromoStripBrandedPng from '@/assets/ggs/ggs-feed-46-bekam-promo-strip.png.asset.json';
 import { GgsServicesSlide, GGS_SERVICES_SLIDES } from './components/GgsServicesSlide';
 import { GgsRatusPromoSlide } from './components/GgsRatusPromoSlide';
 import { KalaMudaRecruitSlide } from './components/KalaMudaRecruitSlide';
@@ -2751,6 +2753,23 @@ function FeedArtwork({
   );
 }
 
+/**
+ * Slide 46 wrapper with capture modes for the prebuilt PNGs:
+ * ?ggbk=strip renders the compact bottom banner, &frame=0 drops the GGS overlay.
+ */
+function GgsBekamPromoCapture({ exportRef }: { exportRef: RefObject<HTMLElement | null> }) {
+  const [mode, setMode] = useState<{ variant: 'full' | 'strip'; frame: boolean }>({ variant: 'full', frame: true });
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('ggbk') === 'strip') {
+      setMode({ variant: 'strip', frame: params.get('frame') !== '0' });
+    } else if (params.get('ggbk') === 'plain') {
+      setMode({ variant: 'full', frame: false });
+    }
+  }, []);
+  return <GgsBekamPromoSlide exportRef={exportRef} variant={mode.variant} frame={mode.frame} />;
+}
+
 function ClientFeedArtwork({
   exportRef,
   isStory,
@@ -2897,7 +2916,7 @@ function ClientFeedArtwork({
   }
 
   if (!isStory && slide === 46) {
-    return <GgsBekamPromoSlide exportRef={exportRef} />;
+    return <GgsBekamPromoCapture exportRef={exportRef} />;
   }
 
   if (!isStory && slide >= 13 && slide <= 18) {
@@ -3701,8 +3720,22 @@ function App() {
                   label="Download PNG · + kop & kaki GGS"
                   className="inline-flex items-center gap-2 rounded-full bg-[#b21652] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(120,18,58,0.2)] transition-colors hover:bg-[#8d0f41] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
                 />
+                <PrebuiltPngDownload
+                  key="ggs-feed-46-bekam-promo-strip"
+                  src={ggsBekamPromoStripPng.url}
+                  fileName="GGS-Feed-46-Promo-Bekam-Strip.png"
+                  label="Download PNG · Strip kecil transparan"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
+                />
+                <PrebuiltPngDownload
+                  key="ggs-feed-46-bekam-promo-strip-branded"
+                  src={ggsBekamPromoStripBrandedPng.url}
+                  fileName="GGS-Feed-46-Promo-Bekam-Strip-Kop-Kaki.png"
+                  label="Download PNG · Strip + kop & kaki GGS"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#b21652] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(120,18,58,0.2)] transition-colors hover:bg-[#8d0f41] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
+                />
                 <p className="max-w-[92vw] text-center text-[10px] font-medium text-slate-600">
-                  PNG 2160×2880, latar transparan — tinggal ditumpuk di atas bingkai video.
+                  PNG 2160×2880, latar transparan — tinggal ditumpuk di atas bingkai video. Versi strip kecil hanya menutupi bagian bawah, jadi videonya tetap kelihatan.
                 </p>
               </>
             ) : activeFeed === 'client' && (activeClientSlide === 8 || activeClientSlide === 9 || activeClientSlide === 11 || activeClientSlide === 19 || activeClientSlide === 20 || activeClientSlide === 24 || activeClientSlide === 25 || activeClientSlide === 26 || activeClientSlide === 28 || activeClientSlide === 29 || activeClientSlide === 30 || activeClientSlide === 31 || GGS_LAYANAN_PNGS[activeClientSlide]) ? (

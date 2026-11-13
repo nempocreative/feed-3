@@ -56,4 +56,4 @@
 - [x] GGS Feed slide 42: open with therapists Anggi & Deni (owner's photos, faces unchanged, AI batik outfits) looking curious "Aha, apa itu ratus?" with a ratus in the scene; education moved to 43–45
 - [x] GGS Feed slide 42: ratus burner shaped like the one on slide 43, better composition with Anggi & Deni
 - [x] GGS Cowok slide 08: "POV: lupa pakai kacamata" with the owner's barber photo sharpened (faces unchanged), PNG download
-- [x] GGS Feed slide 46: Promo Bekam Full Body (Rp140.000 → Rp110.000) on a transparent canvas, two PNG downloads (promo-only + with GGS kop/kaki) for stacking on a video frame
+- [x] GGS Feed slide 46: Promo Bekam Full Body (Rp140.000 → Rp110.000) on a transparent canvas, four PNG downloads (full-frame + small bottom strip, each promo-only and with GGS kop/kaki) for stacking on a video frame

@@ -23,3 +23,15 @@
 .ggbk-save{margin-top:2cqw;padding:.8cqw 2.8cqw;border-radius:99cqw;background:var(--ggbk-save-bg);color:var(--ggbk-save-ink);font-size:2.2cqw;font-weight:800;letter-spacing:.22cqw;text-transform:uppercase}
 
 .ggbk-watermark{position:absolute;inset:0;z-index:4;width:100%;height:100%;object-fit:contain;pointer-events:none}
+
+/* --- strip variant: compact bottom banner, the rest of the frame stays transparent --- */
+.ggbk-strip{position:absolute;z-index:2;left:6cqw;right:6cqw;bottom:15cqw;display:flex;align-items:center;gap:3cqw;padding:2.6cqw 3.4cqw;border-radius:4cqw;background:var(--ggbk-plate);border:.45cqw solid var(--ggbk-plate-line);box-shadow:var(--ggbk-card-shadow)}
+.ggbk-strip-cups{flex:0 0 auto;width:19cqw;height:auto;filter:drop-shadow(0 .6cqw 1.1cqw rgba(60,10,30,.3))}
+.ggbk-strip-text{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:.8cqw}
+.ggbk-strip-title{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 96,'wdth' 90;font-weight:800;font-size:4.6cqw;line-height:1.05;letter-spacing:-.08cqw;color:var(--ggbk-head-ink)}
+.ggbk-strip-title em{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:600}
+.ggbk-strip-price{margin:0;display:flex;align-items:baseline;gap:1.8cqw}
+.ggbk-strip-price s{font-size:2.6cqw;font-weight:700;color:var(--ggbk-head-ink);opacity:.55;text-decoration-thickness:.3cqw;text-decoration-color:var(--ggbk-pop)}
+.ggbk-strip-price strong{display:flex;align-items:baseline;font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 96,'wdth' 90;font-weight:800;font-size:5.4cqw;line-height:.95;letter-spacing:-.14cqw;color:var(--ggbk-head-ink)}
+.ggbk-strip-price small{margin-right:.5cqw;font-family:'DM Sans',sans-serif;font-size:2.4cqw;font-weight:800;color:var(--ggbk-pop);opacity:1}
+.ggbk-strip-save{flex:0 0 auto;align-self:center;padding:1cqw 2.4cqw;border-radius:99cqw;background:var(--ggbk-save-bg);color:var(--ggbk-save-ink);font-size:2.1cqw;font-weight:800;letter-spacing:.18cqw;text-transform:uppercase;transform:rotate(2deg)}

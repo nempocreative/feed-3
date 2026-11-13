@@ -34,10 +34,51 @@ function Cup({ x, s }: { x: number; s: number }) {
 export function GgsBekamPromoSlide({
   exportRef,
   frame = true,
+  variant = 'full',
 }: {
   exportRef?: RefObject<HTMLElement | null>;
   frame?: boolean;
+  /** 'full' = whole-frame layout; 'strip' = compact bottom banner so the video stays visible. */
+  variant?: 'full' | 'strip';
 }) {
+  if (variant === 'strip') {
+    return (
+      <div
+        ref={exportRef as RefObject<HTMLDivElement | null>}
+        className="ggbk-root ggbk-root--strip"
+        aria-label="GGS Beauty — Promo bekam full body, dari Rp140.000 jadi Rp110.000, hemat Rp30.000"
+      >
+        <div className="ggbk-strip">
+          <svg className="ggbk-strip-cups" viewBox="-20 -32 160 36" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="ggbk-glass" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="#ffffff" stopOpacity=".95" />
+                <stop offset="52%" stopColor="#ffd3e2" stopOpacity=".78" />
+                <stop offset="100%" stopColor="#d93a78" stopOpacity=".62" />
+              </linearGradient>
+            </defs>
+            <Cup x={30} s={0.8} />
+            <Cup x={62} s={1} />
+            <Cup x={94} s={0.8} />
+          </svg>
+          <div className="ggbk-strip-text">
+            <p className="ggbk-strip-title">
+              Promo <em>Bekam</em> Full Body
+            </p>
+            <p className="ggbk-strip-price">
+              <s>Rp140.000</s>
+              <strong>
+                <small>Rp</small>110.000
+              </strong>
+            </p>
+          </div>
+          <span className="ggbk-strip-save">Hemat Rp30.000</span>
+        </div>
+        {frame && <img className="ggbk-watermark" src={ggsWatermark.url} alt="" aria-hidden="true" />}
+      </div>
+    );
+  }
+
   return (
     <div
       ref={exportRef as RefObject<HTMLDivElement | null>}
