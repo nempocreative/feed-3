@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "f6ff7a1d-4e1d-4f87-beec-d6201ffd7409",
-  "project_id": "878f866c-1790-4201-ac96-af91209bda1f",
-  "url": "/__l5e/assets-v1/f6ff7a1d-4e1d-4f87-beec-d6201ffd7409/ggs-feed-42-anggi-deni-ratus-v3.jpg",
-  "r2_key": "a/v1/878f866c-1790-4201-ac96-af91209bda1f/f6ff7a1d-4e1d-4f87-beec-d6201ffd7409/ggs-feed-42-anggi-deni-ratus-v3.jpg",
-  "original_filename": "ggs-feed-42-anggi-deni-ratus-v3.jpg",
-  "size": 590010,
   "content_type": "image/jpeg",
-  "created_at": "2026-11-13T05:44:11Z"
+  "created_at": "2026-11-13T05:44:11Z",
+  "original_filename": "ggs-feed-42-anggi-deni-ratus-v3.jpg",
+  "project_id": "5a562707-076d-4022-8ab4-77f28d7ffd11",
+  "r2_key": "a/v1/5a562707-076d-4022-8ab4-77f28d7ffd11/f6ff7a1d-4e1d-4f87-beec-d6201ffd7409/ggs-feed-42-anggi-deni-ratus-v3.jpg",
+  "size": 590010,
+  "url": "/__l5e/assets-v1/f6ff7a1d-4e1d-4f87-beec-d6201ffd7409/ggs-feed-42-anggi-deni-ratus-v3.jpg",
+  "version": 1
 }

@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "28cf93f9-eca0-4b35-8978-b4b9807b0451",
-  "project_id": "878f866c-1790-4201-ac96-af91209bda1f",
-  "url": "/__l5e/assets-v1/28cf93f9-eca0-4b35-8978-b4b9807b0451/ggs-feed-44-ratus-edukasi.png",
-  "r2_key": "a/v1/878f866c-1790-4201-ac96-af91209bda1f/28cf93f9-eca0-4b35-8978-b4b9807b0451/ggs-feed-44-ratus-edukasi.png",
-  "original_filename": "ggs-feed-44-ratus-edukasi.png",
-  "size": 6929076,
   "content_type": "image/png",
-  "created_at": "2026-11-13T05:04:00Z"
+  "created_at": "2026-11-13T05:04:00Z",
+  "original_filename": "ggs-feed-44-ratus-edukasi.png",
+  "project_id": "5a562707-076d-4022-8ab4-77f28d7ffd11",
+  "r2_key": "a/v1/5a562707-076d-4022-8ab4-77f28d7ffd11/28cf93f9-eca0-4b35-8978-b4b9807b0451/ggs-feed-44-ratus-edukasi.png",
+  "size": 6929076,
+  "url": "/__l5e/assets-v1/28cf93f9-eca0-4b35-8978-b4b9807b0451/ggs-feed-44-ratus-edukasi.png",
+  "version": 1
 }

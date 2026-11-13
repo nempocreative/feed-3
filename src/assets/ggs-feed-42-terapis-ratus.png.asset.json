@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "9bebe3aa-891a-44fc-9e2b-50920c1718fb",
-  "project_id": "878f866c-1790-4201-ac96-af91209bda1f",
-  "url": "/__l5e/assets-v1/9bebe3aa-891a-44fc-9e2b-50920c1718fb/ggs-feed-42-apa-itu-ratus-anggi-deni-v3.png",
-  "r2_key": "a/v1/878f866c-1790-4201-ac96-af91209bda1f/9bebe3aa-891a-44fc-9e2b-50920c1718fb/ggs-feed-42-apa-itu-ratus-anggi-deni-v3.png",
-  "original_filename": "ggs-feed-42-apa-itu-ratus-anggi-deni-v3.png",
-  "size": 8748409,
   "content_type": "image/png",
-  "created_at": "2026-11-13T05:46:14Z"
+  "created_at": "2026-11-13T05:46:14Z",
+  "original_filename": "ggs-feed-42-apa-itu-ratus-anggi-deni-v3.png",
+  "project_id": "5a562707-076d-4022-8ab4-77f28d7ffd11",
+  "r2_key": "a/v1/5a562707-076d-4022-8ab4-77f28d7ffd11/9bebe3aa-891a-44fc-9e2b-50920c1718fb/ggs-feed-42-apa-itu-ratus-anggi-deni-v3.png",
+  "size": 8748409,
+  "url": "/__l5e/assets-v1/9bebe3aa-891a-44fc-9e2b-50920c1718fb/ggs-feed-42-apa-itu-ratus-anggi-deni-v3.png",
+  "version": 1
 }
