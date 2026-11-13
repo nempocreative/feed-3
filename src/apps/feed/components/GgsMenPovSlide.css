@@ -1,0 +1,13 @@
+.ggmv-root{position:relative;isolation:isolate;width:100%;aspect-ratio:3/4;overflow:hidden;container-type:inline-size;background:var(--ggmv-paper);font-family:'DM Sans',sans-serif;color:var(--ggmv-ink)}
+.ggmv-root *{letter-spacing:0}
+.ggmv-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.ggmv-wash{position:absolute;inset:0;z-index:1;background:var(--ggmv-wash);pointer-events:none}
+
+.ggmv-sticker{position:absolute;z-index:2;left:6cqw;top:27cqw;padding:2.2cqw 3.6cqw 2.6cqw;border-radius:3cqw;background:var(--ggmv-card);box-shadow:var(--ggmv-card-shadow);transform:rotate(-3deg);transform-origin:0 0}
+.ggmv-pov{margin:0;display:inline-block;padding:.5cqw 2cqw .6cqw;border-radius:99cqw;background:var(--ggmv-ink);color:var(--ggmv-gold-light);font-size:3cqw;font-weight:900;letter-spacing:.3cqw !important}
+.ggmv-title{margin:1cqw 0 0;font-size:6.6cqw;font-weight:900;line-height:1.02;color:var(--ggmv-ink)}
+.ggmv-title em{display:block;font-style:normal;color:var(--ggmv-gold)}
+
+.ggmv-arrow{position:absolute;z-index:2;left:40cqw;top:34cqw;width:15cqw;height:10cqw;overflow:visible;fill:none;stroke:var(--ggmv-arrow);stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;filter:var(--ggmv-arrow-shadow)}
+
+.ggmv-watermark{position:absolute;inset:0;z-index:3;width:100%;height:100%;object-fit:contain;pointer-events:none}
