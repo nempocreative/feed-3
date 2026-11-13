@@ -48,3 +48,5 @@
 - [x] GGS Feed slide 39: 'Kuku Bagus Menawan dengan Nail Art', photo IMG_3197 with whitened fingers, PNG download
 - [x] GGS Feed slide 40: 'Kuku menarik' with the same photo IMG_3197 (original, only cleaned), PNG download
 - [x] GGS Feed slide 41: 'Merah mempesona' with the red-nails coaster photo (fingers whitened), PNG download
+- [x] GGS Feed slides 42–44: ratus education series (42 apa itu ratus + rempah, 43 manfaat ratus for people who don't know it yet, 44 cara + kapan ditunda), cool backgrounds, PNG downloads
+- [x] GGS Feed ratus education: show promo price Rp45.000 (only price) as the booking call-to-action

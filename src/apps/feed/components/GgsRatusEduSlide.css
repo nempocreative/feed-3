@@ -1,0 +1,70 @@
+.ggre-root{position:relative;isolation:isolate;width:100%;aspect-ratio:3/4;overflow:hidden;container-type:inline-size;background:var(--ggre-bg);font-family:'DM Sans',sans-serif;color:var(--ggre-ink)}
+.ggre-stage{position:absolute;inset:0;z-index:0}
+/* Slide 42 pushes its still life down a touch so the spices sit below the legend; pins share the transform. */
+.ggre--one .ggre-stage{transform:scale(1.07);transform-origin:50% 0}
+.ggre-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ggre-shade{position:absolute;inset:0;z-index:1;pointer-events:none;background:var(--ggre-shade)}
+.ggre-copy{position:absolute;z-index:2;left:6.4cqw;top:18.4cqw;width:62cqw}
+.ggre-kicker{margin:0;font-size:1.9cqw;font-weight:700;letter-spacing:.34em;text-transform:uppercase;color:var(--ggre-accent)}
+.ggre-title{margin:1.4cqw 0 0;display:flex;flex-direction:column;font-family:'Playfair Display',Georgia,serif;line-height:1;color:var(--ggre-ink)}
+.ggre-title-a{font-size:6.2cqw;font-weight:600;letter-spacing:-.01em}
+.ggre-title-b{font-size:12.4cqw;font-weight:500;font-style:italic;letter-spacing:-.02em;color:var(--ggre-pop);margin-top:-.4cqw}
+.ggre-lead{margin:2.2cqw 0 0;max-width:52cqw;font-size:2.55cqw;line-height:1.5;color:var(--ggre-soft)}
+.ggre-sub{margin:3.4cqw 0 1.6cqw;font-size:1.9cqw;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--ggre-accent)}
+
+/* Slide 42 legend + photo pins */
+.ggre-legend{list-style:none;margin:0;padding:0;display:grid;gap:1.25cqw}
+.ggre-legend li{display:flex;align-items:baseline;gap:1.4cqw;font-size:2.5cqw;white-space:nowrap}
+.ggre-legend b{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:500;font-size:3.1cqw;color:var(--ggre-ink)}
+.ggre-note{color:var(--ggre-soft)}
+.ggre-note::before{content:'·';margin-right:1.1cqw;color:var(--ggre-accent)}
+.ggre-num,.ggre-pin{display:inline-grid;place-items:center;flex:none;width:3.6cqw;height:3.6cqw;border-radius:50%;font-size:1.8cqw;font-weight:700;font-style:normal;line-height:1;color:var(--ggre-ink);border:.22cqw solid var(--ggre-accent);background:var(--ggre-chip);align-self:center}
+.ggre-pin{position:absolute;z-index:2;transform:translate(-50%,-50%);box-shadow:var(--ggre-pin-glow)}
+
+/* Slide 43 steps + when to wait */
+.ggre-steps{list-style:none;margin:3.6cqw 0 0;padding:0;display:grid;gap:2.4cqw;position:relative}
+.ggre-steps li{display:flex;align-items:flex-start;gap:2.6cqw}
+.ggre-step-num{flex:none;width:7cqw;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:500;font-size:5.4cqw;line-height:.9;color:var(--ggre-pop)}
+.ggre-steps b{display:block;font-size:3cqw;font-weight:700;color:var(--ggre-ink);line-height:1.2}
+.ggre-steps span{display:block;margin-top:.5cqw;font-size:2.35cqw;line-height:1.4;color:var(--ggre-soft)}
+.ggre-avoid{margin-top:3.6cqw;padding-top:2.4cqw;border-top:.16cqw solid var(--ggre-line);max-width:52cqw}
+.ggre-avoid .ggre-sub{margin:0 0 1.4cqw}
+.ggre-avoid ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.8cqw 2.6cqw}
+.ggre-avoid li{display:flex;align-items:center;gap:1cqw;font-size:2.6cqw;font-weight:600;color:var(--ggre-ink)}
+.ggre-avoid li::before{content:'';width:1.2cqw;height:1.2cqw;border-radius:50%;background:var(--ggre-pop)}
+.ggre-fine{margin:1.6cqw 0 0;font-size:2.15cqw;font-style:italic;color:var(--ggre-soft)}
+
+.ggre-watermark{position:absolute;inset:0;z-index:3;width:100%;height:100%;object-fit:contain;pointer-events:none}
+
+/* Slide 43 benefits */
+.ggre-benefits{list-style:none;margin:3.4cqw 0 0;padding:0;display:grid;gap:2cqw}
+.ggre-benefits li{display:flex;align-items:flex-start;gap:2cqw}
+.ggre-benefits .ggre-num{align-self:flex-start;margin-top:.2cqw}
+.ggre-benefits b{display:block;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:500;font-size:3.4cqw;line-height:1.1;color:var(--ggre-ink)}
+.ggre-benefits span:not(.ggre-num){display:block;margin-top:.4cqw;font-size:2.35cqw;line-height:1.35;color:var(--ggre-soft)}
+.ggre--two .ggre-title-a{font-size:5cqw}
+.ggre--two .ggre-fine{margin-top:2.6cqw;max-width:50cqw}
+
+/* Slide 44 title + promo seal */
+.ggre-seal{position:absolute;z-index:2;right:5.4cqw;top:47cqw;width:25cqw;height:25cqw;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:var(--ggre-seal-bg);color:var(--ggre-seal-ink);box-shadow:var(--ggre-seal-shadow);outline:.22cqw solid var(--ggre-seal-ring);outline-offset:-1.3cqw}
+.ggre-seal-kicker{font-size:1.7cqw;font-weight:700;letter-spacing:.26em;text-transform:uppercase}
+.ggre-seal-cur{margin-top:.8cqw;font-size:2.4cqw;font-weight:700;line-height:1}
+.ggre-seal-price{font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:6.6cqw;line-height:1;letter-spacing:-.02em}
+.ggre-seal-cta{margin-top:1cqw;font-size:1.6cqw;font-weight:600;letter-spacing:.08em;opacity:.9}
+
+/* Slide 42 compact: one-line title and a two-column legend so text stays above the spices */
+.ggre--one .ggre-title{flex-direction:row;align-items:baseline;gap:2.2cqw;white-space:nowrap}
+.ggre--one .ggre-title-b{font-size:10.6cqw;margin-top:0}
+.ggre--one .ggre-lead{font-size:2.45cqw;margin-top:1.6cqw}
+.ggre--one .ggre-sub{margin:2.8cqw 0 1.8cqw}
+.ggre--one .ggre-legend{grid-template-columns:25.5cqw 23cqw;gap:2cqw 2cqw}
+.ggre--one .ggre-legend li{display:grid;grid-template-columns:auto 1fr;column-gap:1.4cqw;row-gap:.2cqw;align-items:center}
+.ggre--one .ggre-legend .ggre-num{grid-row:1 / span 2}
+.ggre--one .ggre-note{font-size:2.15cqw;line-height:1.2}
+.ggre--one .ggre-note::before{content:none}
+.ggre--one .ggre-legend b{line-height:1.05}
+.ggre--two .ggre-title-b{font-size:10cqw;white-space:nowrap;margin-top:.4cqw}
+.ggre--two .ggre-benefits{margin-top:3cqw}
+.ggre--three .ggre-title-b{font-size:8.8cqw;white-space:nowrap;margin-top:.4cqw}
+.ggre--three .ggre-avoid{max-width:60cqw}
+.ggre--three .ggre-avoid ul{flex-direction:column;gap:1cqw}

@@ -187,6 +187,44 @@
   --ggkm-shade: linear-gradient(180deg, rgba(255, 248, 245, .9) 0%, rgba(255, 248, 245, .84) 20%, rgba(255, 248, 245, .55) 27%, rgba(255, 248, 245, 0) 34%);
   --ggkm-glow: 0 0 2.4cqw rgba(255, 250, 247, .95), 0 .2cqw .8cqw rgba(255, 250, 247, .8);
 }
+/* GGS Feed slides 42–44 (3:4): ratus education — 42 dark spice still life, 43 plum benefits, 44 warm blush ratus room. */
+.ggre-root.ggre--one {
+  --ggre-bg: #1d130d;
+  --ggre-ink: #fbf1e4;
+  --ggre-soft: rgba(251, 241, 228, .8);
+  --ggre-accent: #e3b46a;
+  --ggre-pop: #f4a7bd;
+  --ggre-chip: rgba(29, 19, 13, .72);
+  --ggre-line: rgba(227, 180, 106, .45);
+  --ggre-pin-glow: 0 0 0 .8cqw rgba(227, 180, 106, .18), 0 .4cqw 1.4cqw rgba(0, 0, 0, .55);
+  --ggre-shade: linear-gradient(100deg, rgba(20, 12, 8, .82) 0%, rgba(20, 12, 8, .55) 38%, rgba(20, 12, 8, 0) 62%), linear-gradient(180deg, rgba(20, 12, 8, .35) 0%, rgba(20, 12, 8, 0) 30%);
+}
+.ggre-root.ggre--two {
+  --ggre-bg: #3a1424;
+  --ggre-ink: #fbf1e4;
+  --ggre-soft: rgba(251, 241, 228, .8);
+  --ggre-accent: #e8bf7a;
+  --ggre-pop: #f6a9c0;
+  --ggre-chip: rgba(58, 20, 36, .7);
+  --ggre-line: rgba(232, 191, 122, .45);
+  --ggre-pin-glow: none;
+  --ggre-shade: linear-gradient(100deg, rgba(30, 9, 18, .6) 0%, rgba(30, 9, 18, .3) 50%, rgba(30, 9, 18, 0) 72%), linear-gradient(0deg, rgba(30, 9, 18, .55) 0%, rgba(30, 9, 18, 0) 32%);
+}
+.ggre-root.ggre--three {
+  --ggre-bg: #efd2bf;
+  --ggre-ink: #4a1730;
+  --ggre-soft: rgba(74, 23, 48, .78);
+  --ggre-accent: #a4632a;
+  --ggre-pop: #c2406b;
+  --ggre-chip: rgba(255, 248, 242, .8);
+  --ggre-line: rgba(74, 23, 48, .22);
+  --ggre-pin-glow: none;
+  --ggre-seal-bg: #4a1730;
+  --ggre-seal-ink: #fbf1e4;
+  --ggre-seal-ring: rgba(244, 199, 140, .7);
+  --ggre-seal-shadow: 0 1.6cqw 4cqw rgba(74, 23, 48, .35);
+  --ggre-shade: linear-gradient(100deg, rgba(255, 246, 238, .7) 0%, rgba(255, 246, 238, .45) 45%, rgba(255, 246, 238, 0) 70%);
+}
 /* GGS Feed slide 41 (3:4): "Merah mempesona" over the owner's red-nails photo on the GGS Studio coaster. */
 .ggmr-root {
   --ggmr-plum: #4a1730;
