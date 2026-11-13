@@ -52,4 +52,5 @@
 - [x] GGS Feed ratus education: show promo price Rp45.000 (only price) as the booking call-to-action
 - [x] GGS Feed slides 42 & 43: remove education text (owner request) — photo-only slides, recapture PNGs
 - [x] GGS Feed slide 44: remove education text too (owner request); keep Rp45.000 promo seal; recapture PNG
+- [x] GGS Feed slides 42–44: titles restored and text lowered away from the header
 - [ ] GGS Feed slide 42: open with therapists Anggi & Deni (owner's photos, faces unchanged, AI batik outfits) looking curious "Aha, apa itu ratus?" with a ratus in the scene — blocked: owner's two photos arrived empty, waiting for re-upload

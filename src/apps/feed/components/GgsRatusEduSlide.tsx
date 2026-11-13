@@ -60,6 +60,10 @@ export function GgsRatusEduSlide({ part, exportRef }: { part: 1 | 2 | 3; exportR
       {part === 1 && (
         <>
           <section className="ggre-copy">
+            <h2 className="ggre-title">
+              <span className="ggre-title-a">Apa itu</span>
+              <span className="ggre-title-b">Ratus?</span>
+            </h2>
             <p className="ggre-lead">
               Perawatan warisan perempuan Nusantara: area kewanitaan diuapi asap rempah hangat sambil duduk santai di bangku ratus.
             </p>
@@ -79,7 +83,11 @@ export function GgsRatusEduSlide({ part, exportRef }: { part: 1 | 2 | 3; exportR
 
       {part === 2 && (
         <section className="ggre-copy">
-          <ol className="ggre-benefits">
+          <h2 className="ggre-title">
+              <span className="ggre-title-a">Banyak yang belum tahu,</span>
+              <span className="ggre-title-b">manfaat ratus</span>
+            </h2>
+            <ol className="ggre-benefits">
             {BENEFITS.map(([t, d], i) => (
               <li key={t}>
                 <span className="ggre-num">{i + 1}</span>
@@ -97,6 +105,10 @@ export function GgsRatusEduSlide({ part, exportRef }: { part: 1 | 2 | 3; exportR
       {part === 3 && (
         <>
           <section className="ggre-copy">
+            <h2 className="ggre-title">
+              <span className="ggre-title-a">Ratus yang</span>
+              <span className="ggre-title-b">nyaman &amp; aman</span>
+            </h2>
             <ol className="ggre-steps">
               {STEPS.map(([t, d], i) => (
                 <li key={t}>

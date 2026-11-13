@@ -69,6 +69,7 @@
 .ggre--three .ggre-avoid{max-width:60cqw}
 .ggre--three .ggre-avoid ul{flex-direction:column;gap:1cqw}
 
-/* Titles removed at the owner's request: rebalance the copy blocks vertically. */
-.ggre--two .ggre-copy{top:24cqw}
-.ggre--three .ggre-copy{top:22cqw}
+
+/* Copy starts well below the header logo (owner: text must not crowd the header). */
+.ggre-copy{top:25cqw}
+.ggre--three .ggre-seal{top:51cqw}
