@@ -23,9 +23,9 @@ export function GgsMenPovSlide({ exportRef }: { exportRef?: RefObject<HTMLElemen
           </h2>
         </section>
 
-        <svg className="ggmv-arrow" viewBox="0 0 120 80" aria-hidden="true">
-          <path d="M6 10 C 40 2, 86 18, 104 62" />
-          <path d="M90 56 L 105 66 L 110 48" />
+        <svg className="ggmv-arrow" viewBox="0 0 110 100" aria-hidden="true">
+          <path d="M4 10 C 52 0, 92 30, 97 86" />
+          <path d="M83 74 L 97 90 L 107 70" />
         </svg>
 
         <img className="ggmv-watermark" src={menOverlay.url} alt="" draggable={false} />
