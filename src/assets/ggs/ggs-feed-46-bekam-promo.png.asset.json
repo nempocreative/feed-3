@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "5c30c527-806b-4785-9a61-d6afda0574d3",
-  "project_id": "731a9dae-f243-4fc5-9e1b-d923a8d320d0",
-  "url": "/__l5e/assets-v1/5c30c527-806b-4785-9a61-d6afda0574d3/ggs-feed-46-bekam-promo.png",
-  "r2_key": "a/v1/731a9dae-f243-4fc5-9e1b-d923a8d320d0/5c30c527-806b-4785-9a61-d6afda0574d3/ggs-feed-46-bekam-promo.png",
-  "original_filename": "ggs-feed-46-bekam-promo.png",
-  "size": 1668759,
   "content_type": "image/png",
-  "created_at": "2026-11-13T07:23:22Z"
+  "created_at": "2026-11-13T07:23:22Z",
+  "original_filename": "ggs-feed-46-bekam-promo.png",
+  "project_id": "b3276d51-46cd-4acc-b1b1-1cb2b586289c",
+  "r2_key": "a/v1/b3276d51-46cd-4acc-b1b1-1cb2b586289c/5c30c527-806b-4785-9a61-d6afda0574d3/ggs-feed-46-bekam-promo.png",
+  "size": 1668759,
+  "url": "/__l5e/assets-v1/5c30c527-806b-4785-9a61-d6afda0574d3/ggs-feed-46-bekam-promo.png",
+  "version": 1
 }

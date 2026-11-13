@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "dcf372ba-ce12-455f-aa1a-c45b96911c2d",
-  "project_id": "731a9dae-f243-4fc5-9e1b-d923a8d320d0",
-  "url": "/__l5e/assets-v1/dcf372ba-ce12-455f-aa1a-c45b96911c2d/ggs-feed-46-bekam-promo-strip.png",
-  "r2_key": "a/v1/731a9dae-f243-4fc5-9e1b-d923a8d320d0/dcf372ba-ce12-455f-aa1a-c45b96911c2d/ggs-feed-46-bekam-promo-strip.png",
-  "original_filename": "ggs-feed-46-bekam-promo-strip.png",
-  "size": 894794,
   "content_type": "image/png",
-  "created_at": "2026-11-13T07:40:08Z"
+  "created_at": "2026-11-13T07:40:08Z",
+  "original_filename": "ggs-feed-46-bekam-promo-strip.png",
+  "project_id": "b3276d51-46cd-4acc-b1b1-1cb2b586289c",
+  "r2_key": "a/v1/b3276d51-46cd-4acc-b1b1-1cb2b586289c/dcf372ba-ce12-455f-aa1a-c45b96911c2d/ggs-feed-46-bekam-promo-strip.png",
+  "size": 894794,
+  "url": "/__l5e/assets-v1/dcf372ba-ce12-455f-aa1a-c45b96911c2d/ggs-feed-46-bekam-promo-strip.png",
+  "version": 1
 }
