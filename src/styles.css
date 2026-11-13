@@ -187,6 +187,21 @@
   --ggkm-shade: linear-gradient(180deg, rgba(255, 248, 245, .9) 0%, rgba(255, 248, 245, .84) 20%, rgba(255, 248, 245, .55) 27%, rgba(255, 248, 245, 0) 34%);
   --ggkm-glow: 0 0 2.4cqw rgba(255, 250, 247, .95), 0 .2cqw .8cqw rgba(255, 250, 247, .8);
 }
+/* GGS Feed slide 42 (3:4): therapists Anggi & Deni ask "apa itu ratus?" in a warm ratus room. */
+.ggrq-root {
+  --ggrq-bg: #2a160c;
+  --ggrq-ink: #fff4e6;
+  --ggrq-pop: #f6a9c0;
+  --ggrq-accent: #f0c27a;
+  --ggrq-glow: 0 .3cqw 1.6cqw rgba(30, 12, 4, .65);
+  --ggrq-shade: linear-gradient(180deg, rgba(30, 14, 6, .35) 0%, rgba(30, 14, 6, .1) 22%, rgba(30, 14, 6, 0) 45%, rgba(30, 14, 6, 0) 70%, rgba(30, 14, 6, .45) 100%);
+  --ggrq-bubble-bg: #fff4e6;
+  --ggrq-bubble-ink: #5a1d36;
+  --ggrq-bubble-shadow: 0 .6cqw 2cqw rgba(20, 8, 2, .45);
+  --ggrq-tag-bg: rgba(42, 22, 12, .72);
+  --ggrq-tag-line: rgba(240, 194, 122, .6);
+}
+
 /* GGS Feed slides 42–44 (3:4): ratus education — 42 dark spice still life, 43 plum benefits, 44 warm blush ratus room. */
 .ggre-root.ggre--one {
   --ggre-bg: #1d130d;

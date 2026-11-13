@@ -183,6 +183,8 @@ import ggsKukuMenarikPng from '@/assets/ggs-feed-40-kuku-menarik.png.asset.json'
 import { GgsMerahMempesonaSlide } from './components/GgsMerahMempesonaSlide';
 import ggsMerahMempesonaPng from '@/assets/ggs-feed-41-merah-mempesona.png.asset.json';
 import { GgsRatusEduSlide } from './components/GgsRatusEduSlide';
+import { GgsRatusTanyaSlide } from './components/GgsRatusTanyaSlide';
+import ggsRatusTanyaPng from '@/assets/ggs-feed-42-terapis-ratus.png.asset.json';
 import ggsRatusEdu42Png from '@/assets/ggs-feed-42-ratus-edukasi.png.asset.json';
 import ggsRatusEdu43Png from '@/assets/ggs-feed-43-ratus-edukasi.png.asset.json';
 import ggsRatusEdu44Png from '@/assets/ggs-feed-44-ratus-edukasi.png.asset.json';
@@ -257,7 +259,7 @@ type FeedSlide =
   | 44
   | 45;
 
-type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44;
+type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45;
 
 const cafes = [
   {
@@ -2882,8 +2884,11 @@ function ClientFeedArtwork({
   if (!isStory && slide === 41) {
     return <GgsMerahMempesonaSlide exportRef={exportRef} />;
   }
-  if (!isStory && slide >= 42 && slide <= 44) {
-    return <GgsRatusEduSlide part={(slide - 41) as 1 | 2 | 3} exportRef={exportRef} />;
+  if (!isStory && slide === 42) {
+    return <GgsRatusTanyaSlide exportRef={exportRef} />;
+  }
+  if (!isStory && slide >= 43 && slide <= 45) {
+    return <GgsRatusEduSlide part={(slide - 42) as 1 | 2 | 3} exportRef={exportRef} />;
   }
 
   if (!isStory && slide >= 13 && slide <= 18) {
@@ -3234,7 +3239,7 @@ function App() {
       : isGgsFeed
       ? isGgsStory
         ? [1, 2, 3, 4, 5]
-        : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+        : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
       : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, ...DIVISION_SLIDES, NEMPO_PAHLAWAN_SLIDE, NEMPO_CS_SLIDE];
   const selectedSlide =
     isGgsFeed ? activeClientSlide : activeSlide;
@@ -3606,11 +3611,11 @@ function App() {
                   PNG 2880×3840. Di iPad/iPhone pilih “Simpan Gambar” atau “Simpan ke File”; jika gambar terbuka, tekan lama lalu Simpan.
                 </p>
               </>
-            ) : activeFeed === 'client' && (activeClientSlide === 42 || activeClientSlide === 43 || activeClientSlide === 44) ? (
+            ) : activeFeed === 'client' && activeClientSlide >= 42 && activeClientSlide <= 45 ? (
               <>
                 <PrebuiltPngDownload
-                  src={activeClientSlide === 42 ? ggsRatusEdu42Png.url : activeClientSlide === 43 ? ggsRatusEdu43Png.url : ggsRatusEdu44Png.url}
-                  fileName={`GGS-Feed-${activeClientSlide}-Edukasi-Ratus-${activeClientSlide - 41}.png`}
+                  src={activeClientSlide === 42 ? ggsRatusTanyaPng.url : activeClientSlide === 43 ? ggsRatusEdu42Png.url : activeClientSlide === 44 ? ggsRatusEdu43Png.url : ggsRatusEdu44Png.url}
+                  fileName={activeClientSlide === 42 ? 'GGS-Feed-42-Apa-Itu-Ratus-Anggi-Deni.png' : `GGS-Feed-${activeClientSlide}-Edukasi-Ratus-${activeClientSlide - 42}.png`}
                   label="Download PNG · 2×"
                   className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
                 />
