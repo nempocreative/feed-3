@@ -190,6 +190,8 @@ import { GgsRatusEduSlide } from './components/GgsRatusEduSlide';
 import { GgsRatusTanyaSlide } from './components/GgsRatusTanyaSlide';
 import { GgsBekamPromoSlide } from './components/GgsBekamPromoSlide';
 import { GgsTerapisKenalanSlide } from './components/GgsTerapisKenalanSlide';
+import { GgsHairOpenSlide } from './components/GgsHairOpenSlide';
+import ggsHairOpenDownload from '@/assets/ggs-feed-48-we-are-open.mp4.asset.json';
 import ggsTerapisKenalanPng from '@/assets/ggs-feed-47-kenalan-terapis.png.asset.json';
 import ggsRatusTanyaPng from '@/assets/ggs-feed-42-terapis-ratus.png.asset.json';
 import ggsRatusEdu42Png from '@/assets/ggs-feed-42-ratus-edukasi.png.asset.json';
@@ -270,7 +272,7 @@ type FeedSlide =
   | 44
   | 45;
 
-type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47;
+type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48;
 
 const cafes = [
   {
@@ -2774,6 +2776,15 @@ function GgsBekamPromoCapture({ exportRef }: { exportRef: RefObject<HTMLElement 
   return <GgsBekamPromoSlide exportRef={exportRef} variant={mode.variant} frame={mode.frame} />;
 }
 
+/** Slide 48: `?ggwo=overlay` renders only the static overlay (no video) for composing the MP4 download. */
+function GgsHairOpenCapture({ exportRef }: { exportRef: RefObject<HTMLElement | null> }) {
+  const [overlayOnly, setOverlayOnly] = useState(false);
+  useEffect(() => {
+    setOverlayOnly(new URLSearchParams(window.location.search).get('ggwo') === 'overlay');
+  }, []);
+  return <GgsHairOpenSlide exportRef={exportRef} hideVideo={overlayOnly} />;
+}
+
 function ClientFeedArtwork({
   exportRef,
   isStory,
@@ -2924,6 +2935,9 @@ function ClientFeedArtwork({
   }
   if (!isStory && slide === 47) {
     return <GgsTerapisKenalanSlide exportRef={exportRef} />;
+  }
+  if (!isStory && slide === 48) {
+    return <GgsHairOpenCapture exportRef={exportRef} />;
   }
 
   if (!isStory && slide >= 13 && slide <= 18) {
@@ -3274,7 +3288,7 @@ function App() {
       : isGgsFeed
       ? isGgsStory
         ? [1, 2, 3, 4, 5]
-        : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]
+        : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
       : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, ...DIVISION_SLIDES, NEMPO_PAHLAWAN_SLIDE, NEMPO_CS_SLIDE];
   const selectedSlide =
     isGgsFeed ? activeClientSlide : activeSlide;
@@ -3680,6 +3694,20 @@ function App() {
                 />
                 <p className="max-w-[92vw] text-center text-[10px] font-medium text-slate-600">
                   PNG 2880×3840. Di iPad/iPhone pilih “Simpan Gambar” atau “Simpan ke File”; jika gambar terbuka, tekan lama lalu Simpan.
+                </p>
+              </>
+            ) : activeFeed === 'client' && activeClientSlide === 48 ? (
+              <>
+                <a
+                  href={ggsHairOpenDownload.url}
+                  download="GGS-Feed-48-We-Are-Open-Rambut.mp4"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
+                >
+                  <Download className="h-3.5 w-3.5" aria-hidden="true" />
+                  Download video · MP4
+                </a>
+                <p className="max-w-[92vw] text-center text-[10px] font-medium text-slate-600">
+                  Video 16 detik · 1440×1920 · 30 fps, persis seperti pratinjau.
                 </p>
               </>
             ) : activeFeed === 'client' && activeClientSlide >= 42 && activeClientSlide <= 45 ? (

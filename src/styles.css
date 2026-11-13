@@ -207,6 +207,19 @@
 }
 
 /* GGS Feed slide 47 (3:4): meet therapists Teh Siti & Teh Anggi in pink blazers + massage promo. */
+/* GGS Feed slide 48 (3:4): "We are open" over swaying glossy hair. */
+.ggwo-root {
+  --ggwo-bg: #2b0d16;
+  --ggwo-ink: #fff6ef;
+  --ggwo-pop: #ffc2d6;
+  --ggwo-glow: 0 .4cqw 2.4cqw rgba(38, 6, 18, .75);
+  --ggwo-shade: linear-gradient(180deg, rgba(38, 8, 20, .32) 0%, rgba(38, 8, 20, 0) 18%, rgba(38, 8, 20, 0) 52%, rgba(52, 10, 26, .4) 70%, rgba(44, 8, 22, .82) 100%);
+  --ggwo-card: rgba(255, 247, 242, .95);
+  --ggwo-card-sub: #8a1f48;
+  --ggwo-card-shadow: 0 1.2cqw 3.4cqw rgba(38, 6, 18, .45);
+  --ggwo-chip: #a51d5d;
+  --ggwo-chip-ink: #fff6ef;
+}
 .ggth-root {
   --ggth-bg: #f6e4e6;
   --ggth-ink: #5a1530;
