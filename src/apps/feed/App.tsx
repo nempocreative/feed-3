@@ -180,8 +180,8 @@ import { GgsNailArtSlide } from './components/GgsNailArtSlide';
 import ggsNailArtPng from '@/assets/ggs-feed-39-nail-art.png.asset.json';
 import { GgsKukuMenarikSlide } from './components/GgsKukuMenarikSlide';
 import ggsKukuMenarikPng from '@/assets/ggs-feed-40-kuku-menarik.png.asset.json';
-import { GgsMerahMemesonaSlide } from './components/GgsMerahMemesonaSlide';
-import ggsMerahMemesonaPng from '@/assets/ggs-feed-41-merah-memesona.png.asset.json';
+import { GgsMerahMempesonaSlide } from './components/GgsMerahMempesonaSlide';
+import ggsMerahMempesonaPng from '@/assets/ggs-feed-41-merah-mempesona.png.asset.json';
 import { GgsServicesSlide, GGS_SERVICES_SLIDES } from './components/GgsServicesSlide';
 import { GgsRatusPromoSlide } from './components/GgsRatusPromoSlide';
 import { KalaMudaRecruitSlide } from './components/KalaMudaRecruitSlide';
@@ -2876,7 +2876,7 @@ function ClientFeedArtwork({
     return <GgsKukuMenarikSlide exportRef={exportRef} />;
   }
   if (!isStory && slide === 41) {
-    return <GgsMerahMemesonaSlide exportRef={exportRef} />;
+    return <GgsMerahMempesonaSlide exportRef={exportRef} />;
   }
 
   if (!isStory && slide >= 13 && slide <= 18) {
@@ -3590,8 +3590,8 @@ function App() {
             ) : activeFeed === 'client' && activeClientSlide === 41 ? (
               <>
                 <PrebuiltPngDownload
-                  src={ggsMerahMemesonaPng.url}
-                  fileName="GGS-Feed-41-Merah-Memesona.png"
+                  src={ggsMerahMempesonaPng.url}
+                  fileName="GGS-Feed-41-Merah-Mempesona.png"
                   label="Download PNG · 2×"
                   className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
                 />

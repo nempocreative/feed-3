@@ -47,4 +47,4 @@
 - [x] GGS Feed slide 38: "Dibalik Rambut Berkilau" with the owner's hair photo, keep its original marble background, PNG download
 - [x] GGS Feed slide 39: 'Kuku Bagus Menawan dengan Nail Art', photo IMG_3197 with whitened fingers, PNG download
 - [x] GGS Feed slide 40: 'Kuku menarik' with the same photo IMG_3197 (original, only cleaned), PNG download
-- [x] GGS Feed slide 41: 'Merah memesona' with the red-nails coaster photo (fingers whitened), PNG download
+- [x] GGS Feed slide 41: 'Merah mempesona' with the red-nails coaster photo (fingers whitened), PNG download
