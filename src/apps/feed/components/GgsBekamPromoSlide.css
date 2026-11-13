@@ -1,0 +1,25 @@
+/* The canvas stays transparent: only the headline plate, the cups, the card and the frame carry pixels. */
+.ggbk-root{position:relative;isolation:isolate;width:100%;aspect-ratio:3/4;overflow:hidden;container-type:inline-size;background:transparent;font-family:'DM Sans',sans-serif;color:var(--ggbk-ink)}
+
+/* --- headline plate: solid so it reads over any footage --- */
+.ggbk-head{position:absolute;z-index:2;left:9cqw;right:9cqw;top:20cqw;display:flex;flex-direction:column;align-items:center;text-align:center;padding:3.8cqw 3cqw 4.2cqw;border-radius:4.4cqw;background:var(--ggbk-plate);border:.45cqw solid var(--ggbk-plate-line);box-shadow:var(--ggbk-card-shadow);transform:rotate(-.8deg)}
+.ggbk-kicker{margin:0 0 1.8cqw;padding:.9cqw 3.2cqw;border-radius:99cqw;background:var(--ggbk-pop);color:var(--ggbk-kicker-ink);font-size:2.5cqw;font-weight:800;letter-spacing:.42cqw;text-transform:uppercase}
+.ggbk-title{margin:0;display:flex;flex-direction:column;align-items:center;line-height:.92}
+.ggbk-title-lead{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:600;font-size:8.8cqw;color:var(--ggbk-head-ink)}
+.ggbk-title-main{margin-top:.7cqw;font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 96,'wdth' 88;font-weight:800;font-size:12.6cqw;letter-spacing:-.2cqw;color:var(--ggbk-head-ink)}
+
+/* --- cupping cups --- */
+.ggbk-cups{position:absolute;z-index:1;left:8cqw;width:84cqw;height:19cqw;top:57cqw;pointer-events:none;filter:drop-shadow(0 .9cqw 1.6cqw rgba(60,10,30,.34))}
+
+/* --- price card --- */
+.ggbk-card{position:absolute;z-index:2;left:9cqw;right:9cqw;top:80cqw;display:flex;flex-direction:column;align-items:center;text-align:center;padding:3.8cqw 3.4cqw 4cqw;border-radius:4.2cqw;background:var(--ggbk-card);border:.5cqw solid var(--ggbk-card-line);box-shadow:var(--ggbk-card-shadow);transform:rotate(.8deg)}
+
+.ggbk-old{margin:0;font-size:3.6cqw;font-weight:700;color:var(--ggbk-old-ink)}
+.ggbk-old s{text-decoration-thickness:.36cqw;text-decoration-color:var(--ggbk-pop)}
+
+.ggbk-new{margin:.4cqw 0 0;display:flex;align-items:baseline;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 96,'wdth' 90;font-weight:800;font-size:12.8cqw;line-height:.9;letter-spacing:-.28cqw;color:var(--ggbk-pop)}
+.ggbk-new small{margin-right:.9cqw;font-family:'DM Sans',sans-serif;font-size:4.2cqw;font-weight:800;letter-spacing:0}
+
+.ggbk-save{margin-top:2cqw;padding:.8cqw 2.8cqw;border-radius:99cqw;background:var(--ggbk-save-bg);color:var(--ggbk-save-ink);font-size:2.2cqw;font-weight:800;letter-spacing:.22cqw;text-transform:uppercase}
+
+.ggbk-watermark{position:absolute;inset:0;z-index:4;width:100%;height:100%;object-fit:contain;pointer-events:none}

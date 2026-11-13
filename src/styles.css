@@ -206,6 +206,26 @@
   --ggrq-next-bg: rgba(30, 14, 6, .55);
 }
 
+/* GGS Feed slide 46 (3:4): bekam full body promo on a transparent canvas, for dropping onto a video frame. */
+.ggbk-root {
+  --ggbk-ink: #4a1220;
+  --ggbk-pop: #d93a78;
+  --ggbk-card: linear-gradient(168deg, #fffaf3 0%, #fff1e2 62%, #ffe6d4 100%);
+  --ggbk-card-line: rgba(217, 58, 120, .5);
+  --ggbk-card-shadow: 0 1.6cqw 3.4cqw rgba(48, 8, 24, .34);
+  --ggbk-kicker-ink: #fff8f0;
+  --ggbk-kicker-shadow: 0 .5cqw 1.2cqw rgba(120, 18, 58, .35);
+  --ggbk-old-ink: #9b7a86;
+  --ggbk-save-bg: linear-gradient(135deg, #f25b95 0%, #b21652 100%);
+  --ggbk-save-ink: #fff6ee;
+  --ggbk-title-lead: #fff3e8;
+  --ggbk-title-main: #fff3e8;
+  --ggbk-stroke: #6d1233;
+  --ggbk-plate: linear-gradient(158deg, #7d1436 0%, #a81b4e 54%, #5c0d28 100%);
+  --ggbk-plate-line: rgba(255, 214, 228, .55);
+  --ggbk-head-ink: #fff4e8;
+}
+
 /* GGS Feed slides 42–44 (3:4): ratus education — 42 dark spice still life, 43 plum benefits, 44 warm blush ratus room. */
 .ggre-root.ggre--one {
   --ggre-bg: #1d130d;

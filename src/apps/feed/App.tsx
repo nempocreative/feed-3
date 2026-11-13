@@ -186,10 +186,13 @@ import { GgsMerahMempesonaSlide } from './components/GgsMerahMempesonaSlide';
 import ggsMerahMempesonaPng from '@/assets/ggs-feed-41-merah-mempesona.png.asset.json';
 import { GgsRatusEduSlide } from './components/GgsRatusEduSlide';
 import { GgsRatusTanyaSlide } from './components/GgsRatusTanyaSlide';
+import { GgsBekamPromoSlide } from './components/GgsBekamPromoSlide';
 import ggsRatusTanyaPng from '@/assets/ggs-feed-42-terapis-ratus.png.asset.json';
 import ggsRatusEdu42Png from '@/assets/ggs-feed-42-ratus-edukasi.png.asset.json';
 import ggsRatusEdu43Png from '@/assets/ggs-feed-43-ratus-edukasi.png.asset.json';
 import ggsRatusEdu44Png from '@/assets/ggs-feed-44-ratus-edukasi.png.asset.json';
+import ggsBekamPromoPng from '@/assets/ggs/ggs-feed-46-bekam-promo-noframe.png.asset.json';
+import ggsBekamPromoBrandedPng from '@/assets/ggs/ggs-feed-46-bekam-promo.png.asset.json';
 import { GgsServicesSlide, GGS_SERVICES_SLIDES } from './components/GgsServicesSlide';
 import { GgsRatusPromoSlide } from './components/GgsRatusPromoSlide';
 import { KalaMudaRecruitSlide } from './components/KalaMudaRecruitSlide';
@@ -261,7 +264,7 @@ type FeedSlide =
   | 44
   | 45;
 
-type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45;
+type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46;
 
 const cafes = [
   {
@@ -2893,6 +2896,10 @@ function ClientFeedArtwork({
     return <GgsRatusEduSlide part={(slide - 42) as 1 | 2 | 3} exportRef={exportRef} />;
   }
 
+  if (!isStory && slide === 46) {
+    return <GgsBekamPromoSlide exportRef={exportRef} />;
+  }
+
   if (!isStory && slide >= 13 && slide <= 18) {
     return <GgsServicesSlide exportRef={exportRef} data={GGS_SERVICES_SLIDES[slide - 13]!} />;
   }
@@ -3241,7 +3248,7 @@ function App() {
       : isGgsFeed
       ? isGgsStory
         ? [1, 2, 3, 4, 5]
-        : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+        : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
       : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, ...DIVISION_SLIDES, NEMPO_PAHLAWAN_SLIDE, NEMPO_CS_SLIDE];
   const selectedSlide =
     isGgsFeed ? activeClientSlide : activeSlide;
@@ -3676,6 +3683,26 @@ function App() {
                 />
                 <p className="max-w-[92vw] text-center text-[10px] font-medium text-slate-600">
                   PNG 3240×5760. Di iPad/iPhone pilih “Simpan Gambar” atau “Simpan ke File”; jika gambar terbuka, tekan lama lalu Simpan.
+                </p>
+              </>
+            ) : activeFeed === 'client' && activeClientSlide === 46 ? (
+              <>
+                <PrebuiltPngDownload
+                  key="ggs-feed-46-bekam-promo"
+                  src={ggsBekamPromoPng.url}
+                  fileName="GGS-Feed-46-Promo-Bekam-Full-Body.png"
+                  label="Download PNG · Promo transparan"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
+                />
+                <PrebuiltPngDownload
+                  key="ggs-feed-46-bekam-promo-branded"
+                  src={ggsBekamPromoBrandedPng.url}
+                  fileName="GGS-Feed-46-Promo-Bekam-Full-Body-Kop-Kaki.png"
+                  label="Download PNG · + kop & kaki GGS"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#b21652] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(120,18,58,0.2)] transition-colors hover:bg-[#8d0f41] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
+                />
+                <p className="max-w-[92vw] text-center text-[10px] font-medium text-slate-600">
+                  PNG 2160×2880, latar transparan — tinggal ditumpuk di atas bingkai video.
                 </p>
               </>
             ) : activeFeed === 'client' && (activeClientSlide === 8 || activeClientSlide === 9 || activeClientSlide === 11 || activeClientSlide === 19 || activeClientSlide === 20 || activeClientSlide === 24 || activeClientSlide === 25 || activeClientSlide === 26 || activeClientSlide === 28 || activeClientSlide === 29 || activeClientSlide === 30 || activeClientSlide === 31 || GGS_LAYANAN_PNGS[activeClientSlide]) ? (
