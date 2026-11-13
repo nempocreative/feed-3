@@ -415,6 +415,18 @@
   --ggmx-card-shadow: 0 1.2cqw 3.4cqw color-mix(in srgb, #252c22 24%, transparent);
   --ggmx-shade: linear-gradient(180deg, color-mix(in srgb, #f0f1ed 92%, transparent) 0%, color-mix(in srgb, #f0f1ed 92%, transparent) 36%, color-mix(in srgb, #f0f1ed 60%, transparent) 50%, transparent 64%);
 }
+/* GGS Cowok slide 8: POV sticker palette (charcoal + barber gold on white card). */
+.ggmv-root {
+  --ggmv-ink: #161716;
+  --ggmv-paper: #efe7d6;
+  --ggmv-gold: #947126;
+  --ggmv-gold-light: #e4bd61;
+  --ggmv-card: #ffffff;
+  --ggmv-card-shadow: 0 1.4cqw 3.6cqw color-mix(in srgb, #1d1a12 34%, transparent);
+  --ggmv-arrow: #ffffff;
+  --ggmv-arrow-shadow: drop-shadow(0 .4cqw .8cqw color-mix(in srgb, #1d1a12 55%, transparent));
+  --ggmv-wash: radial-gradient(60% 22% at 14% 6%, color-mix(in srgb, #f3ead8 70%, transparent) 0%, transparent 100%), radial-gradient(40% 16% at 88% 7%, color-mix(in srgb, #f3ead8 60%, transparent) 0%, transparent 100%), linear-gradient(0deg, color-mix(in srgb, #1d1a12 32%, transparent) 0%, transparent 16%);
+}
 /* Nempo Feed slides 35–36 (3:4 video): Kala Muda recruitment palette. */
 .ggs-men-tab { --ggm-tab-ink: #ffffff; --ggm-tab-active: #e4bd61; --ggm-ink: #161716; }
 .ggn-root.ggn-men {

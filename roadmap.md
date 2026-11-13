@@ -55,3 +55,4 @@
 - [x] GGS Feed slides 42–44: titles restored and text lowered away from the header
 - [x] GGS Feed slide 42: open with therapists Anggi & Deni (owner's photos, faces unchanged, AI batik outfits) looking curious "Aha, apa itu ratus?" with a ratus in the scene; education moved to 43–45
 - [x] GGS Feed slide 42: ratus burner shaped like the one on slide 43, better composition with Anggi & Deni
+- [x] GGS Cowok slide 08: "POV: lupa pakai kacamata" with the owner's barber photo sharpened (faces unchanged), PNG download
