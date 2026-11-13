@@ -54,3 +54,4 @@
 - [x] GGS Feed slide 44: remove education text too (owner request); keep Rp45.000 promo seal; recapture PNG
 - [x] GGS Feed slides 42–44: titles restored and text lowered away from the header
 - [x] GGS Feed slide 42: open with therapists Anggi & Deni (owner's photos, faces unchanged, AI batik outfits) looking curious "Aha, apa itu ratus?" with a ratus in the scene; education moved to 43–45
+- [ ] GGS Feed slide 42: ratus burner shaped like the one on slide 43, better composition with Anggi & Deni
