@@ -50,3 +50,5 @@
 - [x] GGS Feed slide 41: 'Merah mempesona' with the red-nails coaster photo (fingers whitened), PNG download
 - [x] GGS Feed slides 42–44: ratus education series (42 apa itu ratus + rempah, 43 manfaat ratus for people who don't know it yet, 44 cara + kapan ditunda), cool backgrounds, PNG downloads
 - [x] GGS Feed ratus education: show promo price Rp45.000 (only price) as the booking call-to-action
+- [x] GGS Feed slides 42 & 43: remove education text (owner request) — photo-only slides, recapture PNGs
+- [x] GGS Feed slide 44: remove education text too (owner request); keep Rp45.000 promo seal; recapture PNG
