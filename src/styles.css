@@ -198,8 +198,12 @@
   --ggrq-bubble-bg: #fff4e6;
   --ggrq-bubble-ink: #5a1d36;
   --ggrq-bubble-shadow: 0 .6cqw 2cqw rgba(20, 8, 2, .45);
-  --ggrq-tag-bg: rgba(42, 22, 12, .72);
-  --ggrq-tag-line: rgba(240, 194, 122, .6);
+  --ggrq-tag-bg: linear-gradient(135deg, #f25b95 0%, #d93a78 100%);
+  --ggrq-tag-line: rgba(255, 233, 204, .85);
+  --ggrq-tag-ink: #ffffff;
+  --ggrq-tag-sub: #ffe9cc;
+  --ggrq-tag-shadow: 0 .6cqw 2.2cqw rgba(60, 10, 30, .45);
+  --ggrq-next-bg: rgba(30, 14, 6, .55);
 }
 
 /* GGS Feed slides 42–44 (3:4): ratus education — 42 dark spice still life, 43 plum benefits, 44 warm blush ratus room. */

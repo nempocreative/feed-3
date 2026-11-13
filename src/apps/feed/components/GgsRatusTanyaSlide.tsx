@@ -5,7 +5,7 @@ import './GgsRatusTanyaSlide.css';
 
 /**
  * GGS Feed slide 42: opens the ratus education series. The therapists Anggi and Deni (their own faces,
- * AI batik outfits) stand behind a ratus stool and ask the question the next slides answer.
+ * AI batik outfits) stand side by side behind the ratus burner and ask the question the next slides answer.
  */
 export function GgsRatusTanyaSlide({ exportRef }: { exportRef?: RefObject<HTMLElement | null> }) {
   return (
@@ -25,12 +25,9 @@ export function GgsRatusTanyaSlide({ exportRef }: { exportRef?: RefObject<HTMLEl
       <p className="ggrq-bubble ggrq-bubble--anggi">Ratus itu apa, sih?</p>
       <p className="ggrq-bubble ggrq-bubble--deni">Manfaatnya apa aja?</p>
 
-      <span className="ggrq-mark ggrq-mark--a" aria-hidden="true">?</span>
-      <span className="ggrq-mark ggrq-mark--b" aria-hidden="true">?</span>
-      <span className="ggrq-mark ggrq-mark--c" aria-hidden="true">?</span>
 
-      <p className="ggrq-name ggrq-name--anggi"><b>Anggi</b><span>Terapis GGS</span></p>
-      <p className="ggrq-name ggrq-name--deni"><b>Deni</b><span>Terapis GGS</span></p>
+      <p className="ggrq-name ggrq-name--anggi"><b>Anggi</b><i aria-hidden="true" /><span>Terapis GGS</span></p>
+      <p className="ggrq-name ggrq-name--deni"><b>Deni</b><i aria-hidden="true" /><span>Terapis GGS</span></p>
 
       <p className="ggrq-next">Geser, kita jawab bareng →</p>
 
