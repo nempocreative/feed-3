@@ -57,3 +57,4 @@
 - [x] GGS Feed slide 42: ratus burner shaped like the one on slide 43, better composition with Anggi & Deni
 - [x] GGS Cowok slide 08: "POV: lupa pakai kacamata" with the owner's barber photo sharpened (faces unchanged), PNG download
 - [x] GGS Feed slide 46: Promo Bekam Full Body (Rp140.000 → Rp110.000) on a transparent canvas, four PNG downloads (full-frame + small bottom strip, each promo-only and with GGS kop/kaki) for stacking on a video frame
+- [ ] GGS Cowok slide 09: Give Away Day 5 with the owner's staff photo (hand showing five), photo quality improved without changing her face, PNG download

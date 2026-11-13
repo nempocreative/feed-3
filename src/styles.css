@@ -447,6 +447,18 @@
   --ggmv-arrow-shadow: drop-shadow(0 .4cqw .8cqw color-mix(in srgb, #1d1a12 55%, transparent));
   --ggmv-wash: radial-gradient(60% 22% at 14% 6%, color-mix(in srgb, #f3ead8 70%, transparent) 0%, transparent 100%), radial-gradient(40% 16% at 88% 7%, color-mix(in srgb, #f3ead8 60%, transparent) 0%, transparent 100%), linear-gradient(0deg, color-mix(in srgb, #1d1a12 32%, transparent) 0%, transparent 16%);
 }
+/* GGS Cowok slide 9: Give Away Day 5 palette (barber gold seal, cream headline on a dark lower fade). */
+.ggmg-root {
+  --ggmg-ink: #161716;
+  --ggmg-paper: #2a211b;
+  --ggmg-cream: #fbf3e2;
+  --ggmg-gold: #e4bd61;
+  --ggmg-gold-deep: #8a6420;
+  --ggmg-seal: radial-gradient(circle at 34% 28%, #fbe3a2 0%, #e4bd61 45%, #b8892f 100%);
+  --ggmg-seal-shadow: 0 1.2cqw 3cqw color-mix(in srgb, #0d0a06 55%, transparent);
+  --ggmg-title-shadow: 0 .6cqw 2.4cqw color-mix(in srgb, #0d0a06 70%, transparent);
+  --ggmg-wash: radial-gradient(58% 22% at 14% 6%, color-mix(in srgb, #f3ead8 82%, transparent) 0%, transparent 100%), radial-gradient(40% 16% at 88% 7%, color-mix(in srgb, #f3ead8 55%, transparent) 0%, transparent 100%), linear-gradient(0deg, color-mix(in srgb, #0d0a06 88%, transparent) 0%, color-mix(in srgb, #0d0a06 62%, transparent) 26%, transparent 46%);
+}
 /* Nempo Feed slides 35–36 (3:4 video): Kala Muda recruitment palette. */
 .ggs-men-tab { --ggm-tab-ink: #ffffff; --ggm-tab-active: #e4bd61; --ggm-ink: #161716; }
 .ggn-root.ggn-men {
