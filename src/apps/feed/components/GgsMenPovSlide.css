@@ -8,6 +8,6 @@
 .ggmv-title{margin:1cqw 0 0;font-size:6.6cqw;font-weight:900;line-height:1.02;color:var(--ggmv-ink)}
 .ggmv-title em{display:block;font-style:normal;color:var(--ggmv-gold)}
 
-.ggmv-arrow{position:absolute;z-index:2;left:50cqw;top:33cqw;width:20cqw;height:18cqw;overflow:visible;fill:none;stroke:var(--ggmv-arrow);stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;filter:var(--ggmv-arrow-shadow)}
+.ggmv-arrow{position:absolute;z-index:2;left:51.5cqw;top:34cqw;width:20cqw;height:18cqw;overflow:visible;fill:none;stroke:var(--ggmv-arrow);stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;filter:var(--ggmv-arrow-shadow)}
 
 .ggmv-watermark{position:absolute;inset:0;z-index:3;width:100%;height:100%;object-fit:contain;pointer-events:none}
